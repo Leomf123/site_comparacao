@@ -1,0 +1,41 @@
+
+#corpo_pagina{
+	/*
+	Aqui eu defino o layout da pagina toda
+	como grid, o header, a div principal e o footer
+	*/
+	background-color: yellow;
+	height: 1000px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 20%  60%  20%;
+}
+
+header{
+	border: 5px solid black;
+}
+#corpo_principal{
+	border: 5px solid red;
+	display: grid;
+	grid-template-columns: 10% 90%;
+	grid-template-rows: 100%;
+
+	
+}
+#parte_esquerda{
+	border: 5px solid blue;
+
+	
+	
+}
+#parte_direita{
+	border: 5px solid green;
+	
+	
+	
+}
+footer{
+	border: 5px solid pink;
+	
+}
